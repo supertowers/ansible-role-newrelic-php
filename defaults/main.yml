@@ -601,4 +601,11 @@ newrelic_agent_labels: false
 #
 newrelic_agent_synthetics_enabled: true
 
+# Setting: newrelic.ini-file.location
+# Type   : string
+# Scope  : system
+# Default: none
+# Info   : File newrelic.ini location
+#
+newrelic_ini_file_location: /etc/php.d/newrelic.ini
 
