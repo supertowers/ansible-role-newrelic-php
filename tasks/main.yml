@@ -22,7 +22,7 @@
   template:
     src: newrelic.ini.j2
     dest: "{{ newrelic_ini_file_location }}"
-    group: newrelic
+    group: root
     owner: root
     mode: 0644
   notify:
